@@ -1,5 +1,6 @@
 import {Sound} from './Sound.js'
 import {Modal} from './Modal.js'
+import {Editor} from './Editor.js'
 
 const mainContainer = document.getElementById('main-container')
 
@@ -14,3 +15,5 @@ const startListner = () => {
 
 }
 mainContainer.addEventListener('mousedown', startListner, false)
+
+const editor = new Editor();

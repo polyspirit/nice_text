@@ -36,12 +36,12 @@ export class Modal {
   }
 
   show() {
-    this.window.classList.add('modal-active')
+    this.window.classList.add('active')
   }
 
   hide() {
 
-    this.window.classList.remove('modal-active')
+    this.window.classList.remove('active')
 
   }
 
