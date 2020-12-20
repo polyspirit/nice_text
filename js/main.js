@@ -10,6 +10,8 @@ const startListner = () => {
 
   const startSound = new Sound('sound/start.mp3')
   startSound.play()
+  const startBG = new Sound('sound/startBG.mp3', 0.1)
+  startBG.play()
   mainContainer.removeEventListener('mousedown', startListner, false)
   startModal.destroy()
 

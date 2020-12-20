@@ -23,9 +23,8 @@ export class Editor {
 
       if (window.getSelection()) {
         const select = window.getSelection()
-        console.log(select)
       }
-      
+
     })
 
   }
