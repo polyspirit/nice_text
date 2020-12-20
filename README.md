@@ -1,2 +1,2 @@
-# nice_text
+# Nice Text
 Nice free web text editor
